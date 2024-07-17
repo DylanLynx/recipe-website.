@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="Recipe.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Ingredient Selector</h1>
+    </header>
+    <main>
+        <section class="ingredient-selection">
+            <h2>Select Ingredients</h2>
+            <div class="ingredient-buttons">
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Cheese">
+                        <img src="images/cheese.png" alt="Cheese">
+                        <span>Cheese</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="cheese-amount">Amount:</label>
+                        <input type="text" id="cheese-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Cucumber">
+                        <img src="images/cucumber.png" alt="Cucumber">
+                        <span>Cucumber</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="cucumber-amount">Amount:</label>
+                        <input type="text" id="cucumber-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Tomato">
+                        <img src="images/tomato.png" alt="Tomato">
+                        <span>Tomato</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="tomato-amount">Amount:</label>
+                        <input type="text" id="tomato-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Lettuce">
+                        <img src="images/lettuce.png" alt="Lettuce">
+                        <span>Lettuce</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="lettuce-amount">Amount:</label>
+                        <input type="text" id="lettuce-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Bell Pepper">
+                        <img src="images/bell_pepper.png" alt="Bell Pepper">
+                        <span>Bell Pepper</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="bell_pepper-amount">Amount:</label>
+                        <input type="text" id="bell_pepper-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Carrot">
+                        <img src="images/carrot.png" alt="Carrot">
+                        <span>Carrot</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="carrot-amount">Amount:</label>
+                        <input type="text" id="carrot-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Onion">
+                        <img src="images/onion.png" alt="Onion">
+                        <span>Onion</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="onion-amount">Amount:</label>
+                        <input type="text" id="onion-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Garlic">
+                        <img src="images/garlic.png" alt="Garlic">
+                        <span>Garlic</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="garlic-amount">Amount:</label>
+                        <input type="text" id="garlic-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Spinach">
+                        <img src="images/spinach.png" alt="Spinach">
+                        <span>Spinach</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="spinach-amount">Amount:</label>
+                        <input type="text" id="spinach-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Apple">
+                        <img src="images/apple.png" alt="Apple">
+                        <span>Apple</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="apple-amount">Amount:</label>
+                        <input type="text" id="apple-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Banana">
+                        <img src="images/banana.png" alt="Banana">
+                        <span>Banana</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="banana-amount">Amount:</label>
+                        <input type="text" id="banana-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Orange">
+                        <img src="images/orange.png" alt="Orange">
+                        <span>Orange</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="orange-amount">Amount:</label>
+                        <input type="text" id="orange-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Strawberry">
+                        <img src="images/strawberry.png" alt="Strawberry">
+                        <span>Strawberry</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="strawberry-amount">Amount:</label>
+                        <input type="text" id="strawberry-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Grapes">
+                        <img src="images/grapes.png" alt="Grapes">
+                        <span>Grapes</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="grapes-amount">Amount:</label>
+                        <input type="text" id="grapes-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Blueberries">
+                        <img src="images/blueberries.png" alt="Blueberries">
+                        <span>Blueberries</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="blueberries-amount">Amount:</label>
+                        <input type="text" id="blueberries-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Salt">
+                        <img src="images/salt.png" alt="Salt">
+                        <span>Salt</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="salt-amount">Amount:</label>
+                        <input type="text" id="salt-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Pepper">
+                        <img src="images/pepper.png" alt="Pepper">
+                        <span>Pepper</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="pepper-amount">Amount:</label>
+                        <input type="text" id="pepper-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Paprika">
+                        <img src="images/paprika.png" alt="Paprika">
+                        <span>Paprika</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="paprika-amount">Amount:</label>
+                        <input type="text" id="paprika-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Oregano">
+                        <img src="images/oregano.png" alt="Oregano">
+                        <span>Oregano</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="oregano-amount">Amount:</label>
+                        <input type="text" id="oregano-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+                <div class="ingredient-wrapper">
+                    <button class="ingredient-button" data-ingredient="Basil">
+                        <img src="images/basil.png" alt="Basil">
+                        <span>Basil</span>
+                    </button>
+                    <div class="amount-input hidden">
+                        <label for="basil-amount">Amount:</label>
+                        <input type="text" id="basil-amount" class="amount-input-field">
+                        <button class="add-ingredient-button">Add</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ingredient-summary">
+            <h2>Selected Ingredients</h2>
+            <div class="selected-ingredients"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
